@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutletCollection(UIView) NSArray *testViews;
+
 
 @end
 
